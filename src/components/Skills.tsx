@@ -1,10 +1,10 @@
 const Skills = () => {
     return (
         <>
-            <div className="text-2xl">
+            <div className="text-3xl font-medium text-center mb-5">
                 Tech Stack
             </div>
-            <div className="flex flex-row gap-2">
+            <div className="container mx-auto flex flex-row gap-2">
 
                 <div className="border-slate-500 rounded-full">
                     <div className="inline-block border-2 bg-slate-800 rounded-lg p-2">

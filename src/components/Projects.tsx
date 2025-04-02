@@ -1,11 +1,11 @@
-const WorkExperience = () => {
+const Projects = () => {
     return (
         <div className="h-[20vh] mt-20">
             <div className="text-3xl font-medium">
-                Work Experience
+                Personal Projects
             </div>
         </div>
     )
 }
 
-export default WorkExperience;
+export default Projects;

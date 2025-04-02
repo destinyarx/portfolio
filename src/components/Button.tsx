@@ -1,8 +1,9 @@
-const Button = ({ text, icon = null }: { text: string, icon: string|null }) => {
+const Button = ({ text, color=null, icon=null }: { text: string, color?: string|null, icon?: string|null }) => {
     return (
-        <div className="inline-block border-1 border-amber-50 bg-orange-600 text-white text-sm rounded-full py-2 px-4">
+        <div className={`inline-block items-center w-auto border-1 border-amber-50 text-white text-sm rounded-full py-2 px-4 ${color || ''}`}>
             { text }
-            { icon && <span> { icon } </span>}
+            {/* {  icon && <span> { icon } </span> } */}
+
         </div>
     )
 }

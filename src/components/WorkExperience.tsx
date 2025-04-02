@@ -3,7 +3,7 @@ import WorkExperienceCard from './ui/WorkExperienceCard';
 const experience = [
     { 
         title: "Full Stack Developer",
-        company: "NCMH",
+        company: "National Center for Mental Health",
         dateRange: "Aug. 2022 – Present" 
     },
     { 

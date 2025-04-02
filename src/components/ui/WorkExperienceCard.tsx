@@ -8,15 +8,17 @@ const WorkExperienceCard = ({title, company, dateRange}: {title: string, company
 
                 </div>
             </div>
-            <div className="w-4/5 text-left bg-gradient-to-r from-stone-950 via-neutral-700 to-stone-900">
+            <div className="w-4/5 text-left px-3 py-2 bg-gradient-to-r from-stone-950 via-neutral-700 to-stone-900">
                 <div className="flex flex-col ml-2">
                     <div className="text-xl font-bold">
                         { title }
                     </div>
 
-                    <div className="flex flex-row">
+                    <div>
                         { company } 
-                        &nbsp; * &nbsp;
+                    </div>
+
+                    <div>
                         <Badge text={ dateRange }/>
                     </div>
                 </div>

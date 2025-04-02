@@ -1,11 +1,10 @@
 const Skills = () => {
     return (
         <>
-            <div className="text-3xl font-medium text-center mb-5">
+            <div className="font-bold text-3xl text-center mb-2">
                 Tech Stack
             </div>
-            <div className="container mx-auto flex flex-row gap-2">
-
+            <div className="container mx-auto flex flex-row justify-center gap-2">
                 <div className="border-slate-500 rounded-full">
                     <div className="inline-block border-2 bg-slate-800 rounded-lg p-2">
                         <svg width="50" height="50" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">

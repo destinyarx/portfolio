@@ -14,12 +14,12 @@ const WorkExperienceCard = ({title, company, dateRange}: {title: string, company
                         { title }
                     </div>
 
-                    <div>
+                    <div className="mt-1">
                         { company } 
                     </div>
 
-                    <div>
-                        <Badge text={ dateRange }/>
+                    <div className="mt-1">
+                        <Badge text={dateRange} styles="italic" />
                     </div>
                 </div>
             </div>

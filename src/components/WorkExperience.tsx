@@ -2,7 +2,7 @@ import WorkExperienceCard from './ui/WorkExperienceCard';
 
 const experience = [
     { 
-        title: "Full Stack Developer",
+        title: "Full Stack Web Developer",
         company: "National Center for Mental Health",
         dateRange: "Aug. 2022 – Present" 
     },
@@ -12,7 +12,7 @@ const experience = [
         dateRange: "Aug. 2021 – Sep. 2021" 
     },
     { 
-        title: "Full Stack Developer",
+        title: "Data Encoder",
         company: "TESDA Rizal Provincial Office (Special Program for Employment of Student)",
         dateRange: " April 2018 – May 2018" 
     },

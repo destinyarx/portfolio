@@ -11,8 +11,7 @@ const ProjectInformation = ({title, description, tags}: {title:string, descripti
                     </div>
 
                     <div className="text-md mb-3">
-                        { description && '' }
-                        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et
+                        { description && description }
                     </div>
 
                     <div className="flex flex-row gap-2 text-xs">

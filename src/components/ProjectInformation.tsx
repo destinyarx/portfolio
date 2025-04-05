@@ -10,7 +10,7 @@ const ProjectInformation = ({title, description, tags}: {title:string, descripti
                         { title }
                     </div>
 
-                    <div className="text-md mb-3">
+                    <div className="text-sm mb-3">
                         { description && description }
                     </div>
 

@@ -3,18 +3,23 @@ import ProjectInformation from './ProjectInformation'
 const projectList = [
     {
         title: 'Water Refilling Station Management System',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et',
+        description: 'A management system with features for authentication, admin management (users and roles), customer management, delivery scheduling, inventory and sales tracking, expenses tracking, and daily maintenance schedule.',
         tags: ['Laravel','Vue', 'Inertia', 'Supabase', 'PostgreSQL', 'Tailwind', 'Primevue']
     },
     {
         title: 'ENT Clinic Electronic Medical Records',
-        description: 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.',
+        description: 'An EMR system with the features of authentication, admin management (users and roles), managing patient records (clinical reports) , appointment scheduling, and inventory management.',
         tags: ['Nuxt.js','Supabase','Drizzle', 'PostgreSQL', 'Tailwind', 'Primevue']
     },
     {
-        title: 'Coming Soon (Planning Stage)',
+        title: 'Coming Soon (Building in Progress)',
         description: 'Project details should be included here.',
         tags: ['Next.js','Supabase','Drizzle', 'Tailwind', 'Shadcn']
+    },
+    {
+        title: 'React Native Project (Coming Soon)',
+        description: 'Project details should be included here.',
+        tags: ['React Native', 'Tailwind']
     },
 ]
 

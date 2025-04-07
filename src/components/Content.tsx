@@ -1,5 +1,6 @@
 import Button from './ui/Button';
 import { useState, useEffect } from 'react';
+import avatar from '../../public/avatar-no-username.png';
 
 const textList = [
     "I am AlphaQuadrant, a full stack developer, leveraging PHP and JavaScript frameworks.",
@@ -57,10 +58,19 @@ const Content = () => {
     return (
         <div className="min-h-[92vh]">
             <div className="flex flex-col">
-                <div className="flex justify-center my-10">
-                    <div className="w-45 h-45 rounded-full bg-[#212121] shadow-[15px_15px_30px_#191919,_-15px_-15px_30px_#3C3C3C] mt-10">
+                <div className="flex justify-center items-center mt-10">
+                    <div className="w-50 h-50 rounded-full bg-[#212121] shadow-[15px_15px_30px_#191919,_-15px_-15px_30px_#3C3C3C] mt-10 overflow-hidden flex justify-center items-center">
+                        <img src={avatar} alt="Profile Avatar"  className="w-40 h-40"/>
                     </div>
                 </div>
+
+                <div className="flex flex-row mx-auto text-xl italic text-gray-400 mt-4 mb-7">
+                    <div className="text-green-600">{'<code>'}</div>
+                    <div>AlphaQuadrant</div>
+                    <div className="text-green-600">{'</code>'}</div>
+                </div>
+
+
 
                 <div className={`text-4xl font-semibold mx-10 my-10 transition-opacity duration-1000 ease-in-out ${ isFadingOut ? "opacity-0" : "opacity-100" }`}>
                     {currentText}

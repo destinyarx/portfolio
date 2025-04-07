@@ -6,7 +6,7 @@ interface NavbarProps {
         title: string; 
         ref: RefObject<HTMLDivElement | null> 
     }[];  
-    scrollToSection: (ref: RefObject<HTMLDivElement | null>) => void;
+    scrollToSection?: (ref: RefObject<HTMLDivElement >) => void;
 }
 
 const Navbar = ({ sections, scrollToSection }: NavbarProps) => {
@@ -31,7 +31,9 @@ const Navbar = ({ sections, scrollToSection }: NavbarProps) => {
                                 onClick={(e) => {
                                     e.preventDefault();
                                     setSelectedSection(section.title);
-                                    scrollToSection(section.ref);
+                                    if (scrollToSection) {
+                                        scrollToSection(section.ref);
+                                    }
                                 }}
                             >
                                 {section.title}

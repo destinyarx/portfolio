@@ -5,7 +5,7 @@ import Linkedin from './icons/Linkedin';
 type IconType = 'arrow-right' | 'arrow-down' | 'linkedin' | null;
 type ButtonColorType = 'orange' | 'blue' | null;
 
-const Button = ({ text, color = null, icon=null }: { text: string, color?: ButtonColorType, icon?: IconType }) => {
+const Button = ({ text, color = null, icon=null, url }: { text: string, color?: ButtonColorType, icon?: IconType, url?: string }) => {
     const svgIcons = {
         'arrow-right': <ArrowRight/>,
         'arrow-down': <ArrowDown/>,
@@ -19,10 +19,15 @@ const Button = ({ text, color = null, icon=null }: { text: string, color?: Butto
     const bgColor = color ? buttonColorValues[color] : 'bg-gradient-to-r from-stone-950 via-neutral-700 to-stone-900';
 
     return (
-        <div className={`${bgColor} inline-flex items-center gap-2 border-1 border-amber-50 text-white text-sm rounded-full py-2 px-4`}>
+        <a 
+            href={url} 
+            target="_blank" 
+            rel="noopener noreferrer"
+            className={`${bgColor} inline-flex items-center gap-2 border-1 border-amber-50 text-white text-sm rounded-full py-2 px-4 cursor-pointer hover:opacity-90 transition-opacity`}
+        >
             { text }
             {icon && svgIcons[icon]}
-        </div>
+        </a>
     )
 }
 

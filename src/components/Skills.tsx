@@ -7,7 +7,7 @@ const Skills = () => {
             Skills
         </div>
 
-        <div className="flex flex-row flex-wrap justify-center mx-auto gap-2 w-[50vw]">
+        <div className="flex flex-row flex-wrap justify-center mx-auto gap-2 w-[50vw] mb-22">
         
             <SkillsBadge title="Laravel">
                 <svg width="50" height="50" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" >

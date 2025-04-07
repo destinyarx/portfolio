@@ -9,7 +9,7 @@ const Footer = () => {
                 </div>
 
                 <div className="mt-3">
-                    <Button text="Connect with me on" icon="linkedin"/>
+                    <Button text="Connect with me on" icon="linkedin" url="https://www.linkedin.com/in/iamgiljeremy/"/>
                 </div>
             </div>
 

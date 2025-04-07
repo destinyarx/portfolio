@@ -27,39 +27,36 @@ function App() {
   // Define sections with their title and ref
   const sections = [
     { title: 'About', ref: contentRef },
-    { title: 'Experience', ref: workExperienceRef },
     { title: 'Skills', ref: skillsRef },
     { title: 'Projects', ref: projectsRef },
+    { title: 'Experience', ref: workExperienceRef },
   ];
 
   return (
-    <div className="min-h-screen px-4">
-      {/* <Navbar/>
-      <Content/>
-      <Skills/>
-      <Projects/>
-      <WorkExperience/> */}
-
+    <>
       <Navbar sections={sections} scrollToSection={scrollToSection} />
+      
+      <div className="min-h-screen px-4">
 
-      <div ref={contentRef}>
-        <Content />
+        <div ref={contentRef}>
+          <Content />
+        </div>
+
+        <div ref={skillsRef}>
+          <Skills />
+        </div>
+
+        <div ref={projectsRef}>
+          <Projects />
+        </div>
+
+        <div ref={workExperienceRef}>
+          <WorkExperience />
+        </div>
+
+        <Footer/>
       </div>
-
-      <div ref={skillsRef}>
-        <Skills />
-      </div>
-
-      <div ref={projectsRef}>
-        <Projects />
-      </div>
-
-      <div ref={workExperienceRef}>
-        <WorkExperience />
-      </div>
-
-      <Footer/>
-    </div>
+    </>
   )
 }
 

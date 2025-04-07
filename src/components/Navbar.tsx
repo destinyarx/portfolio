@@ -2,7 +2,10 @@ import { useState } from 'react';
 import { RefObject } from 'react';
 
 interface NavbarProps {
-    sections: { title: string; ref: RefObject<HTMLDivElement | null> }[];  
+    sections: { 
+        title: string; 
+        ref: RefObject<HTMLDivElement | null> 
+    }[];  
     scrollToSection: (ref: RefObject<HTMLDivElement>) => void;
 }
 
@@ -12,7 +15,7 @@ const Navbar = ({ sections, scrollToSection }: NavbarProps) => {
     return (
         <div className="relative">
             <nav className="w-full bg-gradient-to-r from-stone-950 via-neutral-800 to-stone-900 text-white py-4">
-                <div className="flex justify-between px-1">
+                <div className="flex justify-between px-5">
                     <div className="text-lg font-bold">My Portfolio</div>
 
                     <div className="space-x-6 text-lg font-extrabold">

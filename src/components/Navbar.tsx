@@ -1,14 +1,13 @@
 import { useState } from 'react';
+import { RefObject } from 'react';
 
-const Navbar = () => {
+interface NavbarProps {
+    sections: { title: string; ref: RefObject<HTMLDivElement | null> }[];  
+    scrollToSection: (ref: RefObject<HTMLDivElement>) => void;
+}
+
+const Navbar = ({ sections, scrollToSection }: NavbarProps) => {
     const [selectedSection, setSelectedSection] = useState<string>('About');
-    
-    const sections = [
-        { title: 'About', path: '/' },
-        { title: 'Experience', path: '/' },
-        { title: 'Skills', path: '/' },
-        { title: 'Projects', path: '/' },
-    ];
 
     return (
         <div className="relative">
@@ -20,7 +19,7 @@ const Navbar = () => {
                         {sections.map((section, index) => (
                             <a 
                                 key={index} 
-                                href={section.path} 
+                                href="#" 
                                 className={`hover:text-gray-400 transition-all duration-300 ${
                                     selectedSection === section.title 
                                     ? 'text-2xl' 
@@ -29,6 +28,7 @@ const Navbar = () => {
                                 onClick={(e) => {
                                     e.preventDefault();
                                     setSelectedSection(section.title);
+                                    scrollToSection(section.ref);
                                 }}
                             >
                                 {section.title}

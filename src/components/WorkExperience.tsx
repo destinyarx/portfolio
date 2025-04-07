@@ -22,7 +22,7 @@ const WorkExperience = () => {
     return (
         <div className="flex flex-col gap-5 min-h-[20vh] mt-20 mb-10">
             <div className="font-bold text-3xl mb-2">
-                Work Experience
+                Work Experiences
             </div>
 
             {experience.map((data, index) => (

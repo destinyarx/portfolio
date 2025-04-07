@@ -6,7 +6,7 @@ interface NavbarProps {
         title: string; 
         ref: RefObject<HTMLDivElement | null> 
     }[];  
-    scrollToSection?: (ref: RefObject<HTMLDivElement >) => void;
+    scrollToSection?: (ref: RefObject<HTMLDivElement|null >) => void;
 }
 
 const Navbar = ({ sections, scrollToSection }: NavbarProps) => {

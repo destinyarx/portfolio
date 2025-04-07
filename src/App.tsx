@@ -18,7 +18,7 @@ function App() {
   const projectsRef = useRef<HTMLDivElement>(null);
 
   // Function to scroll to a specific section
-  const scrollToSection = (ref: RefObject<HTMLDivElement>) => {
+  const scrollToSection = (ref: RefObject<HTMLDivElement | null>) => {
     if (ref.current) {
       ref.current.scrollIntoView({ behavior: 'smooth' });
     }
@@ -35,7 +35,7 @@ function App() {
   return (
     <>
       <Navbar sections={sections} scrollToSection={scrollToSection} />
-      
+
       <div className="min-h-screen px-4">
 
         <div ref={contentRef}>

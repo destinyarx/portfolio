@@ -16,7 +16,7 @@ const Navbar = ({ sections, scrollToSection }: NavbarProps) => {
         <div className="relative">
             <nav className="w-full bg-gradient-to-r from-stone-950 via-neutral-800 to-stone-900 text-white py-4">
                 <div className="flex justify-between px-5">
-                    <div className="text-lg font-bold">My Portfolio</div>
+                    <div className="text-lg font-bold">Gil Jeremy Ditablan</div>
 
                     <div className="space-x-6 text-lg font-extrabold">
                         {sections.map((section, index) => (

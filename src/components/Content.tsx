@@ -64,7 +64,7 @@ const Content = () => {
                     </div>
                 </div>
 
-                <div className="flex flex-row mx-auto text-xl italic text-gray-400 mt-4 mb-7">
+                <div className="flex flex-row mx-auto text-xl italic text-gray-400 mt-2 mb-10">
                     <div className="text-green-600">{'<code>'}</div>
                     <div>AlphaQuadrant</div>
                     <div className="text-green-600">{'</code>'}</div>
@@ -72,7 +72,7 @@ const Content = () => {
 
 
 
-                <div className={`text-4xl font-semibold mx-10 my-10 transition-opacity duration-1000 ease-in-out ${ isFadingOut ? "opacity-0" : "opacity-100" }`}>
+                <div className={`min-h-[14vh] text-4xl font-semibold mx-10 transition-opacity duration-1000 ease-in-out ${ isFadingOut ? "opacity-0" : "opacity-100" }`}>
                     {currentText}
                     <span className="inline-block w-[2px] h-[1em] bg-white animate-[blink_1s_infinite]"></span>
                 </div>

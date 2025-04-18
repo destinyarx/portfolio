@@ -10,7 +10,7 @@ interface NavbarProps {
 }
 
 const Navbar = ({ sections, scrollToSection }: NavbarProps) => {
-    const [selectedSection, setSelectedSection] = useState<string>('About');
+    const [selectedSection, setSelectedSection] = useState<string>('');
 
     return (
         <div className="relative">
@@ -18,19 +18,11 @@ const Navbar = ({ sections, scrollToSection }: NavbarProps) => {
                 <div className="flex justify-between px-5">
                     <div className="text-lg font-bold">Gil Jeremy Ditablan</div>
 
-                    <div className="space-x-6 text-lg font-extrabold">
+                    <div className="space-x-6 text-lg">
                         {sections.map((section, index) => (
-                            <a 
-                                key={index} 
-                                href="#" 
-                                className={`hover:text-gray-400 transition-all duration-300 ${
-                                    selectedSection === section.title 
-                                    ? 'text-2xl' 
-                                    : 'text-lg'
-                                }`}
-                                onClick={(e) => {
-                                    e.preventDefault();
-                                    setSelectedSection(section.title);
+                            <a  key={index} href="#" 
+                                className={`hover:text-gray-400 transition-all duration-300 text-lg ${ selectedSection === section.title ? 'font-extrabold text-sky-600' : 'font-semibold' }`}
+                                onClick={(e) => { e.preventDefault(); setSelectedSection(section.title);
                                     if (scrollToSection) {
                                         scrollToSection(section.ref);
                                     }

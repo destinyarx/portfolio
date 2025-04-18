@@ -1,6 +1,7 @@
 import Button from './ui/Button';
 import { useState, useEffect } from 'react';
 import avatar from '../../public/avatar-no-username.png';
+import ArrowDown from '../components/ui/icons/ArrowDown';
 
 const textList = [
     "I am AlphaQuadrant, a full stack developer, leveraging PHP and JavaScript frameworks.",
@@ -78,7 +79,13 @@ const Content = () => {
                 </div>
 
                 <div className="flex flex-row justify-center gap-4">
-                    <Button text="Download CV" icon="arrow-down" color="orange"/>
+                    <a href="/portfolio/Gil-Jeremy-Ditablan_CV.pdf" download="Gil Jeremy Ditablan - CV.pdf"
+                        className="flex flex-row items-center gap-2 border-1 border-amber-50 text-white text-sm rounded-full py-2 px-4 cursor-pointer hover:opacity-90 transition-opacity bg-gradient-to-r from-orange-400 via-orange-300 to-orange-500">
+                        Download Resume
+                        <ArrowDown/>
+                    </a>
+
+                    {/* <Button text="Download CV" icon="arrow-down" color="orange"/> */}
                     <Button text="Connect with me on" icon="linkedin" url="https://www.linkedin.com/in/iamgiljeremy/"/>
                 </div>
             </div>

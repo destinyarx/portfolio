@@ -4,23 +4,15 @@ import avatar from '../../public/avatar-no-username.png';
 import ArrowDown from '../components/ui/icons/ArrowDown';
 
 const textList = [
-    "I am AlphaQuadrant, a full stack developer, leveraging PHP and JavaScript frameworks.",
-    "Leveraging PHP and JavaScript frameworks to create dynamic solutions.",
-    "Always learning, always improving. Embracing new technologies in web development.",
-    "Dedicated to mastering full-stack development, from front-end to back-end.",
-    "Building the web of tomorrow, today, with cutting-edge technologies.",
-    "Empowering businesses with custom-built web applications.",
+    "I am AlphaQuadrant, a full-stack developer proficient in JavaScript and PHP frameworks, leveraging AI integration and automation to streamline processes and drive innovation.",
+    "Committed to learning and growing in every aspect of web development.",
+    "Pushing boundaries, exploring new frameworks, and continuously enhancing my skills.",
+    "I code, I build, I grow—dedicated to mastering full-stack development.",
     "Transforming ideas into interactive web experiences.",
     "Turning ideas into functional, user-friendly web applications.",
-    "Building seamless digital experiences, one line of code at a time.",
     "Creating user-centric web applications with performance and design in mind.",
     "Full-stack developer with a passion for building scalable, efficient web apps.",
     "Constantly evolving and grinding through the latest trends in web development.",
-    "Committed to learning and growing in every aspect of web development.",
-    "Pushing boundaries, exploring new frameworks, and continuously enhancing my skills.",
-    "Web development isn't just my career—it's my passion, and I'm always learning.",
-    "Focused on crafting modern, responsive websites with a deep understanding of PHP and JavaScript.",
-    "I code, I build, I grow—dedicated to mastering full-stack development."
 ];
   
 

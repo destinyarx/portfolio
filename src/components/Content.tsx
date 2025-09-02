@@ -70,16 +70,23 @@ const Content = () => {
                     <span className="inline-block w-[2px] h-[1em] bg-white animate-[blink_1s_infinite]"></span>
                 </div>
 
-                <div className="flex flex-row justify-center gap-4">
-                    <a href="/portfolio/Gil-Jeremy-Ditablan_CV.pdf" download="Gil Jeremy Ditablan - CV.pdf"
-                        className="flex flex-row items-center gap-2 border-1 border-amber-50 text-white text-sm rounded-full py-2 px-4 cursor-pointer hover:opacity-90 transition-opacity bg-gradient-to-r from-orange-400 via-orange-300 to-orange-500">
+                <div className="flex flex-row justify-center gap-4 text-xs sm:text-[0.6rem] md:text-xs lg:text-base">
+                    <a
+                        href="/portfolio/Gil-Jeremy-Ditablan_CV.pdf"
+                        download="Gil Jeremy Ditablan - CV.pdf"
+                        className="flex flex-row items-center gap-2 border border-amber-50 text-white rounded-full py-2 px-4 cursor-pointer hover:opacity-90 transition-opacity bg-gradient-to-r from-orange-400 via-orange-300 to-orange-500"
+                    >
                         Download Resume
-                        <ArrowDown/>
+                        <ArrowDown />
                     </a>
 
-                    {/* <Button text="Download CV" icon="arrow-down" color="orange"/> */}
-                    <Button text="Connect with me on" icon="linkedin" url="https://www.linkedin.com/in/iamgiljeremy/"/>
+                    <Button
+                        text="Connect with me on"
+                        icon="linkedin"
+                        url="https://www.linkedin.com/in/iamgiljeremy/"
+                    />
                 </div>
+
             </div>
         </div>
     );

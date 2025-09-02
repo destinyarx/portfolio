@@ -25,13 +25,29 @@ const WorkExperience = () => {
                 Work Experiences
             </div>
 
-            <div className="flex flex-row flex-wrap gap-5 mx-7">
+            {/* <div className="flex flex-row flex-wrap gap-5 mx-7">
                 {experience.map((data, index) => (
-                    <div className="w-[30vw] min-h-[15vh] rounded-2xl bg-gradient-to-r from-stone-950 via-neutral-700 to-stone-900">
+                    <div className="lg:w-[30vw] min-h-[15vh] rounded-2xl bg-gradient-to-r from-stone-950 via-neutral-700 to-stone-900">
                         <WorkExperienceCard key={index} title={data.title} company={data.company} dateRange={data.dateRange}/>
                     </div>
                 ))}
+            </div> */}
+
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+                {experience.map((data, index) => (
+                    <div
+                        key={index}
+                        className="min-h-[15vh] rounded-2xl bg-gradient-to-r from-stone-950 via-neutral-700 to-stone-900 p-4"
+                    >
+                        <WorkExperienceCard
+                            title={data.title}
+                            company={data.company}
+                            dateRange={data.dateRange}
+                        />
+                    </div>
+                ))}
             </div>
+
         </>
     )
 }

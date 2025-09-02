@@ -21,7 +21,7 @@ const Skills = () => {
                 </svg>
             </SkillsBadge>
 
-            <SkillsBadge title="CodeIgniter" size="text-[0.5rem]">
+            <SkillsBadge title="CodeIgniter">
                 <svg className="w-5 h-5 md:w-7 md:h-7 lg:w-12 lg:h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="codeigniter">
                     <g id="codeigniter_2">
@@ -156,7 +156,7 @@ const Skills = () => {
                 </svg>
             </SkillsBadge>
 
-            <SkillsBadge title="TypeScript" size="text-[0.6rem]">
+            <SkillsBadge title="TypeScript">
                 <svg className="w-5 h-5 md:w-7 md:h-7 lg:w-12 lg:h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="typescript">
                         <g id="typescript_2">
@@ -480,7 +480,7 @@ const Skills = () => {
                 </svg>
             </SkillsBadge>
 
-            <SkillsBadge title="Tanstack Query" size="text-[0.5rem]">
+            <SkillsBadge title="Tanstack Query">
                 <svg className="w-5 h-5 md:w-7 md:h-7 lg:w-12 lg:h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="reactquery">
                     <g id="reactquery_2">
@@ -498,7 +498,7 @@ const Skills = () => {
                 </svg>
             </SkillsBadge>
 
-            <SkillsBadge title="React Router" size="text-[0.5rem]">
+            <SkillsBadge title="React Router">
                 <svg className="w-5 h-5 md:w-7 md:h-7 lg:w-12 lg:h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="reactrouter">
                     <g id="reactrouter_2">
@@ -509,7 +509,7 @@ const Skills = () => {
                 </svg>
             </SkillsBadge>
 
-            <SkillsBadge title="JQuery" size="text-[0.6rem]">
+            <SkillsBadge title="JQuery">
                 <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 md:w-7 md:h-7 lg:w-12 lg:h-12">
                     <g id="jquery">
                     <g id="jquery_2">
@@ -549,7 +549,7 @@ const Skills = () => {
             </SkillsBadge>
 
 
-            <SkillsBadge title="Bootstrap" size="text-[0.6rem]">
+            <SkillsBadge title="Bootstrap" >
                 <svg className="w-5 h-5 md:w-7 md:h-7 lg:w-12 lg:h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="bootstrap5">
                     <g id="bootstrap5_2">
@@ -562,7 +562,7 @@ const Skills = () => {
 
             <SkillsBadge title="Vuetify">
                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" className="w-5 h-5 md:w-7 md:h-7 lg:w-12 lg:h-12"  viewBox="0,0,256,256">
-                    <g fill="#22d3ee" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" ><g transform="scale(8,8)"><path d="M9.91211,2l6.08789,13.39063v0.10938l6,-13.5h-6zM13.01953,4h2.98047v6.49805l-0.01367,0.03125zM4,6l12,25l12,-25h-6l-6,13l-6,-13zM23.2793,8h1.54297l-8.82227,18.37891v-2.60547l1.81641,-3.93359z"></path></g></g>
+                    <g fill="#22d3ee" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" text-anchor="none" ><g transform="scale(8,8)"><path d="M9.91211,2l6.08789,13.39063v0.10938l6,-13.5h-6zM13.01953,4h2.98047v6.49805l-0.01367,0.03125zM4,6l12,25l12,-25h-6l-6,13l-6,-13zM23.2793,8h1.54297l-8.82227,18.37891v-2.60547l1.81641,-3.93359z"></path></g></g>
                 </svg>
             </SkillsBadge>
 
@@ -630,7 +630,7 @@ const Skills = () => {
                 </svg>
             </SkillsBadge>
 
-            <SkillsBadge title="PostgreSQL" size="text-[0.6rem]">
+            <SkillsBadge title="PostgreSQL" >
                 <svg className="w-5 h-5 md:w-7 md:h-7 lg:w-12 lg:h-12"  viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="postgresql">
                     <g id="postgresql_2">
@@ -654,7 +654,7 @@ const Skills = () => {
                 </svg>
             </SkillsBadge>
 
-            <SkillsBadge title="Supabase" size="text-[0.6rem]">
+            <SkillsBadge title="Supabase" >
                 <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 md:w-7 md:h-7 lg:w-12 lg:h-12">
                     <g id="supabase">
                     <g id="supabase_2">
@@ -735,7 +735,7 @@ const Skills = () => {
                 </svg>
             </SkillsBadge>
 
-            <SkillsBadge title="VS Code" size="text-[0.5rem]">
+            <SkillsBadge title="VS Code">
                 <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 md:w-7 md:h-7 lg:w-12 lg:h-12">
                     <g id="vscode">
                     <g id="vscode_2">

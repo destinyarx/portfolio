@@ -1,4 +1,4 @@
-const SkillsBadge = ({title, size = null, children}: {title:string, size?: string|null, children?: React.ReactNode}) => {
+const SkillsBadge = ({title, children}: {title:string, children?: React.ReactNode}) => {
     const [first, second] = title.split(' ');
 
     return (

@@ -36,7 +36,7 @@ function App() {
     <>
       <Navbar sections={sections} scrollToSection={scrollToSection} />
 
-      <div className="min-h-screen px-4">
+      <div className="min-h-screen px-4 sm:px-0">
 
         <div ref={contentRef}>
           <Content />

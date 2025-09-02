@@ -1,6 +1,14 @@
 import ProjectInformation from './ProjectInformation'
 
-const projectList = [
+interface Project {
+    title: string,
+    description: string,
+    tags: string[],
+    link: string,
+    image: 'water-station'|'ent-clinic'|'better-buy'|'messenger-bot'
+}
+
+const projectList: Project[] = [
     {
         title: 'Water Refilling Station Management System',
         description: 'A water station management system that streamlines daily operations by handling customer records, delivery scheduling, inventory, sales, expenses, and maintenance, while also providing secure role-based access for staff and administrators.',

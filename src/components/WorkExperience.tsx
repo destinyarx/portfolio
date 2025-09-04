@@ -5,14 +5,14 @@ const experience = [
         title: "Full Stack Web Developer",
         company: "National Center for Mental Health",
         dateRange: "Aug. 2022 – Present",
-        image: 'ncmh',
+        image: 'ncmh' as const,
         description: 'Experienced in building and optimizing EMR systems using Laravel, CodeIgniter, Vue, TypeScript, and Inertia. Skilled in database design, performance optimization, and ensuring seamless interoperability for hospital workflows. Strong background in production support, troubleshooting, and maintaining scalable applications.'
     },
     { 
         title: "Web Developer (Internship)",
         company: "Avasia Information Systems, Inc.",
         dateRange: "Aug. 2021 – Sep. 2021",
-        image: 'avasia',
+        image: 'avasia' as const,
         description: 'Developed a timekeeping web application with face recognition and QR code technology using JavaScript, PHP, Mustache.js, and Face API.js, enabling accurate and efficient attendance tracking. Contributed to full-stack development, system integration, and performance optimization to deliver reliable and user-friendly solutions.'
 
     },
@@ -20,7 +20,7 @@ const experience = [
         title: "Data Encoder",
         company: "TESDA Rizal Provincial Office (Special Program for Employment of Student)",
         dateRange: " April 2018 – May 2018",
-        image: 'tesda',
+        image: 'tesda' as const,
         description: 'Encoded and updated data accurately in Excel and verified documents to ensure completeness and compliance.'
     },
 ]

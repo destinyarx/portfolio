@@ -8,7 +8,7 @@ interface Work {
   title: string,
   company: string,
   dateRange: string,
-  image: string
+  image: keyof typeof IMAGE_PATH
   description: string
 }
 

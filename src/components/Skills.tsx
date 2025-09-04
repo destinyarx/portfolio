@@ -3,12 +3,11 @@ import SkillsBadge from './ui/SkillsBadge';
 const Skills = () => {
   return (
     <>
-        <div className="font-bold text-3xl text-center mb-2">
+        <div className="font-bold text-3xl text-center mb-2 mt-15 md:mt-24">
             Skills
         </div>
 
         <div className="flex flex-row flex-wrap justify-center mx-auto gap-2 w-[50vw] mb-22">
-        
             <SkillsBadge title="Laravel">
                 <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 md:w-7 md:h-7 lg:w-12 lg:h-12">
                     <g id="laravel">

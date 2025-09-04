@@ -49,7 +49,7 @@ const Content = () => {
     }, [currentText, currentIndex, isTyping, isFadingOut]);
 
     return (
-        <div className="min-h-[92vh]">
+        <div className="h-auto">
             <div className="flex flex-col">
                 <div className="flex justify-center items-center mt-10">
                     <div className="w-50 h-50 rounded-full bg-[#212121] shadow-[15px_15px_30px_#191919,_-15px_-15px_30px_#3C3C3C] mt-10 overflow-hidden flex justify-center items-center">

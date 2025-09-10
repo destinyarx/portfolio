@@ -19,10 +19,10 @@ const IMAGE_PATH = {
     'messenger-bot': messengerBotImg,
 }
 
-const ProjectInformation = ({project}: {project: Project}) => {
+const ProjectInformation = ({project, onClick}: {project: Project, onClick?: () => void}) => {
     return (
-            <div className="mx-2 md:mx-6 lg:mx-10">
-                <div className="border-2 border-zinc-800 rounded-xl bg-gradient-to-r from-stone-950 via-neutral-700 to-stone-900 shadow-sm">
+            <div className="mx-3 md:mx-6 lg:mx-10" onClick={onClick} role="button">
+                <div className="border-2 border-zinc-800 rounded-xl bg-gradient-to-r from-stone-950 via-neutral-700 to-stone-900 shadow-sm hover:opacity-65">
                     <div className="grid grid-cols-1 md:grid-cols-[60%_auto] lg:grid-cols-[75%_auto] gap-4 md:gap-5 lg:gap-6 p-3 md:p-4 lg:p-6">
                     
                         <div className="order-1 md:order-2 w-full md:w-64 lg:w-80 justify-self-stretch md:justify-self-end border-2 border-zinc-700 bg-neutral-800 rounded-xl overflow-hidden">
